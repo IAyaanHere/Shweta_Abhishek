@@ -7,53 +7,49 @@
 
 window.INVITATION_CONFIG = {
   site: {
-    title: "Zoya & Zaid — Nikah Invitation",
+    title: "Shweta & Abhishek — Wedding Invitation",
     description:
-      "You are warmly invited to celebrate the Nikah of Zoya Khan and Shaikh Zaid.",
+      "You are warmly invited to celebrate the Wedding of Shweta and Abhishek.",
   },
 
   couple: {
-    brideInitial: "Z",
-    groomInitial: "Z",
+    brideInitial: "S",
+    groomInitial: "A",
     bride: {
-      name: "Zoya Khan",
-      shortName: "Zoya",
+      name: "Shweta",
+      shortName: "Shweta",
       relation: "Daughter of",
-      parents: "Rashid Khan & Farida Begum",
+      parents: "Sri. Krupal & Late Smt. Sunita",
     },
     groom: {
-      name: "Shaikh Zaid",
-      shortName: "Zaid",
+      name: "Abhishek",
+      shortName: "Abhishek",
       relation: "Son of",
-      parents: "Shaikh Tariq & Shabana Begum",
+      parents: "Sri. Manoj & Smt. Trishila",
     },
   },
 
   copy: {
-    bismillah: "﷽",
-    bismillahTranslation:
-      "",
-    welcomeLine: "We request the honour of your\npresence at the Nikah of",
-    invitation:
-      "",
-    heroClosing:
-      "as they begin their forever in\nfaith and love.",
-    welcomeTitle: "A Blessed Beginning",
+    bismillah: "",
+    bismillahTranslation: "",
+    welcomeLine: "With the Blessings of\nOur Parents and Elders\n\nWe joyfully invite you to\ncelebrate the Wedding of",
+    invitation: "",
+    heroClosing: "Please join us as we begin\nour new journey together.",
+    welcomeTitle: "A Beautiful Beginning",
     welcomeBody:
-      "With hearts full of gratitude, we warmly invite you to join us as we celebrate this beautiful beginning with the love, prayers, and blessings of our families.",
+      "A beautiful beginning, blessed by family and tradition. With hearts full of joy, we warmly invite you to join us as we celebrate this special occasion with the love and blessings of our families.",
     gifts:
       "Your love, blessings, and presence are the greatest gifts we could ever ask for.",
-    closing: "We can’t wait to celebrate with you.",
-    dua: "بَارَكَ اللَّهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ",
-    duaTranslation:
-      "May Allah bless you both, shower His blessings upon you, and join you together in goodness.",
+    closing: "We can't wait to celebrate with you.",
+    dua: "",
+    duaTranslation: "",
   },
 
   wedding: {
     // Use a valid ISO date with the local UTC offset for an accurate countdown.
-    isoDate: "2026-10-18T19:00:00+05:30",
-    date: "October 18, 2026",
-    day: "Sunday",
+    isoDate: "2027-01-18T19:00:00+05:30",
+    date: "January 18, 2027",
+    day: "Monday",
     time: "07:00 PM",
     timezone: "IST",
   },
@@ -63,22 +59,22 @@ window.INVITATION_CONFIG = {
     introVideo: "./media/intro-placeholder.mp4",
     introPoster:
       "./media/intro-placeholder.webp",
-    music: "./media/bismillah.mp3",
+    music: "./media/Pookkal Pookkum X Malare Mounama MASHUP _ Sruthi Balamurali.mp3",
 
     // Replace gallery URLs with your own hosted files or image URLs.
     gallery: [
       {
-        src: "./media/gallery/01.webp",
+        src: "./media/gallery/01.png",
         alt: "A softly lit wedding detail",
         caption: "",
       },
       {
-        src: "./media/gallery/02.webp",
+        src: "./media/gallery/02.png",
         alt: "A joyful wedding celebration",
         caption: "",
       },
       {
-        src: "./media/gallery/03.webp",
+        src: "./media/gallery/03.png",
         alt: "Elegant wedding florals and table setting",
         caption: "",
       },
@@ -87,38 +83,33 @@ window.INVITATION_CONFIG = {
 
   program: [
     {
-      time: "6:30 PM",
-      title: "Guest Arrival",
-      note: "",
-    },
-    {
       time: "07:00 PM",
-      title: "Nikah Ceremony",
-      note: "Solemnisation & duas",
+      title: "Muhurtham",
+      note: "The Auspicious Wedding Ceremony",
     },
     {
-      time: "07:30 PM",
+      time: "After the Ceremony",
       title: "Blessings",
       note: "Family greetings & photographs",
     },
     {
-      time: "08:00 PM",
+      time: "Dinner",
       title: "Dinner",
       note: "A feast shared with love",
     },
   ],
 
   venue: {
-    name: "Noor Invites",
+    name: "Chandni Celebration Lawn",
     address:
-      "Mahal, Nagpur",
-    mapUrl: "https://maps.app.goo.gl/9SjDC3RRg9jHZty59",
+      "Kamptee Rd, Nagpur,\nMaharashtra 440029",
+    mapUrl: "https://www.google.com/maps/search/Chandni+Celebration+Lawn+Kamptee+Rd+Nagpur+Maharashtra+440029",
   },
 
 dressCode: {
-  title: "Festive Formal",
+  title: "Traditional Festive Attire",
   description:
-    "Traditional or formal attire is encouraged. Sarees, lehengas, anarkalis, sherwanis, kurtas, suits, and formal dresses are all welcome. We kindly ask guests to avoid overly casual attire and white or ivory.",
+    "Sarees, silk sarees, lehengas, dhotis, kurtas and sherwanis are warmly encouraged. Join us in celebrating this special occasion.",
   swatches: [
     "#7A1F2B",
     "#234638",
@@ -130,31 +121,17 @@ dressCode: {
 
   preWeddingEvents: [
     {
-      name: "Mehendi",
-      date: "October 15",
-      time: "4:00 PM",
-      location: "Bride’s Residence",
-      mapLink: "https://maps.app.goo.gl/c4WZJk71NhKc7CDGA",
-    },
-    {
-      name: "Qawwali Evening",
-      date: "October 17",
+      name: "Wedding Ceremony",
+      date: "January 18, 2027",
       time: "7:00 PM",
-      location: "Groom's Residence",
-      mapLink: "https://maps.app.goo.gl/c4WZJk71NhKc7CDGA",
-    },
-    {
-      name: "Walima",
-      date: "October 19",
-      time: "7:30 PM",
-      location: "Blue Lagoon, ECR, Chennai",
-      mapLink: "https://maps.app.goo.gl/VY3FM2kntM26syuJ8",
+      location: "Chandni Celebration Lawn, Nagpur",
+      mapLink: "https://www.google.com/maps/search/Chandni+Celebration+Lawn+Kamptee+Rd+Nagpur+Maharashtra+440029",
     },
   ],
 
   rsvp: {
-    deadline: "Kindly respond by September 15, 2026",
-    contact: "For assistance, call +91 98765 43210",
+    deadline: "",
+    contact: "",
     fields: {
       name: "Your full name",
       email: "Email address",
